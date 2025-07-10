@@ -16,3 +16,8 @@ resource "azurerm_resource_group" "child_rg_3" {
   name     = "rg5"
   location = "centralindia"
 }
+
+resource "azurerm_resource_group" "child_rg_2" {
+  name     = "rg4"
+  location = "centralus"
+}
